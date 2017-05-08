@@ -183,6 +183,8 @@ def main(_):
                  FLAGS.train_data, FLAGS.test_data)
 
 
+As αλλάξω κάτι
+
 if __name__ == "__main__":
   parser = argparse.ArgumentParser()
   parser.register("type", "bool", lambda v: v.lower() == "true")
